@@ -6,6 +6,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Include="wwwroot\sass\style.scss" />
+    <Content Include="wwwroot\sass\style.css" />
     <Content Include="wwwroot\about.html" />
     <Content Include="wwwroot\contact.html" />
     <Content Include="wwwroot\dummy\background%402x.jpg" />
@@ -124,9 +126,8 @@
     <Content Include="wwwroot\sass\libs\_mixins.scss" />
     <Content Include="wwwroot\sass\libs\_normalize.scss" />
     <Content Include="wwwroot\sass\libs\_settings.scss" />
-    <Content Include="wwwroot\sass\style.scss" />
     <Content Include="wwwroot\single.html" />
-    <Content Include="wwwroot\style.css" />
+    <None Include="wwwroot\style.css" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.0.0" />
