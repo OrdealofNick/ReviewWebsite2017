@@ -212,7 +212,7 @@ table {
  */
 body {
   background-color: #131a20;
-  background-image: url(dummy/background.jpg);
+  background-image: url(dummy/background@2x.jpg);/*this is stupid*/
   background-position: top center;
   background-repeat: no-repeat;
   color: #84878d;
@@ -236,6 +236,10 @@ ul, ol {
 a {
   text-decoration: none;
   color: #ffaa3c; }
+/*NICK: REMOVE TEXT DECORATION ON LINKS*/
+a:hover, a:focus{
+    text-decoration:none;
+}
 
 address {
   font-style: normal; }
@@ -1409,9 +1413,10 @@ ul.arrow {
     color: #9198af; }
 
 .main-navigation {
-  float: right;
-  background: white;
-  border-radius: 5px; }
+    float: right;
+    background: #868282;/*NICKL CHANGED BACKGROUND*/
+    border-radius: 5px;
+}
   .main-navigation .menu-toggle, .main-navigation .menu, .main-navigation .search-form {
     display: inline-block;
     vertical-align: middle; }
@@ -1445,14 +1450,15 @@ ul.arrow {
     .main-navigation .menu-item a {
       padding: 0 15px;
       display: inline-block;
-      color: #84878d;
+      color: white;/*NICK: CHANGED TEXT COLOR*/
       font-size: 14px;
       font-size: 0.9333333333em;
       font-weight: 400;
       line-height: 1;
       border-right: 1px solid #eeeeef; }
     .main-navigation .menu-item.current-menu-item, .main-navigation .menu-item:hover {
-      position: relative; }
+      position: relative;
+    }
       .main-navigation .menu-item.current-menu-item:after, .main-navigation .menu-item:hover:after {
         content: " ";
         position: absolute;
@@ -1463,7 +1469,8 @@ ul.arrow {
         left: 0;
         right: 0;
         margin: 0 auto;
-        display: block; }
+        display: block;
+      }
   .main-navigation .search-form input {
     background-color: #f0f0f0;
     border: none;
@@ -1522,9 +1529,10 @@ ul.arrow {
         color: #ffaa3c; }
 
 .main-content .container {
-  background: white;
-  border-radius: 5px;
-  padding: 30px; }
+    background: #868282;/*NICK: CHANGED BACKGROUND COLOR*/
+    border-radius: 5px;
+    padding: 30px;
+}
 
 .section-title {
   font-size: 30px;
