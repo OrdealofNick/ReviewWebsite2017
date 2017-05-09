@@ -6,6 +6,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Include="wwwroot\images\icon.jpg" />
+    <Content Include="wwwroot\images\icon.png" />
+    <Content Include="wwwroot\images\logonew.png" />
+    <Content Include="wwwroot\images\logonewsize.png" />
     <Content Include="wwwroot\images\nathanwhite.png" />
     <Content Include="wwwroot\images\nicholasgaudet.jpg" />
     <Content Include="wwwroot\images\oultoncollege.jpg" />
