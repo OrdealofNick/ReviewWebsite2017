@@ -6,7 +6,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Include="wwwroot\images\nathanwhite.png" />
+    <Content Include="wwwroot\images\nicholasgaudet.jpg" />
     <Content Include="wwwroot\images\oultoncollege.jpg" />
+    <Content Include="wwwroot\images\recordplayerphoto.png" />
+    <Content Include="wwwroot\images\vinylrecords.jpg" />
     <Content Include="wwwroot\sass\style.scss" />
     <Content Include="wwwroot\sass\style.css" />
     <Content Include="wwwroot\about.html" />
