@@ -2084,7 +2084,7 @@ ul.arrow {
         }
 
 .main-content .container {
-    background: #868282; /*NICK: CHANGED BACKGROUND COLOR*/
+    background: white;/*CHANGED THE BACKGROUND BACK TO WHITE*/
     border-radius: 5px;
     padding: 30px;
 }

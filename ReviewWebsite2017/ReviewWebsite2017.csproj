@@ -6,6 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Include="wwwroot\images\oultoncollege.jpg" />
     <Content Include="wwwroot\sass\style.scss" />
     <Content Include="wwwroot\sass\style.css" />
     <Content Include="wwwroot\about.html" />
