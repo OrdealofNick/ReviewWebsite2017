@@ -6,10 +6,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Include="wwwroot\images\Graphicloads-Colorful-Long-Shadow-Music.ico" />
     <Content Include="wwwroot\images\icon.jpg" />
     <Content Include="wwwroot\images\icon.png" />
     <Content Include="wwwroot\images\logonew.png" />
     <Content Include="wwwroot\images\logonewsize.png" />
+    <Content Include="wwwroot\images\Music-icon.png" />
     <Content Include="wwwroot\images\nathanwhite.png" />
     <Content Include="wwwroot\images\nicholasgaudet.jpg" />
     <Content Include="wwwroot\images\oultoncollege.jpg" />
@@ -143,13 +145,18 @@
     <PackageReference Include="Microsoft.AspNetCore" Version="1.1.1" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="1.1.2" />
     <PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="1.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="1.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="1.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer.Design" Version="1.1.1" />
     <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="1.1.1" />
     <PackageReference Include="Microsoft.VisualStudio.Web.BrowserLink" Version="1.1.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="1.1.0" />
   </ItemGroup>
   <ItemGroup>
     <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="1.0.0" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Models\" />
     <Folder Include="wwwroot\sass\pages\" />
   </ItemGroup>
 
