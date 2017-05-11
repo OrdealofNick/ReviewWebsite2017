@@ -2285,6 +2285,34 @@ ul.arrow {
             color: white;
         }
 
+/*NDGAUDET PAGINATION AT THE TOP*/
+.pagination-top {
+    clear: both;/*work callise*/
+    text-align: center;
+    padding-bottom: 2.5em;
+}
+
+    .pagination-top .page-number {
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        border-radius: 5px;
+        background: #e7e7e7;
+        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+        line-height: 2.6;
+        color: #84878d;
+        font-size: 15px;
+        font-size: 1em;
+        -webkit-transition: .3s ease;
+        transition: .3s ease;
+    }
+
+        .pagination-top .page-number.current, .pagination-top .page-number:hover {
+            background: #ffaa3c;
+            color: white;
+        }
+
+/*NDGAUDET PAGINATION DONE*/
 .movie-meta, .starring {
     margin-bottom: 30px;
     list-style: none;

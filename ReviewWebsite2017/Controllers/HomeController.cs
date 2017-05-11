@@ -38,5 +38,13 @@ namespace ReviewWebsite2017.Controllers
         public IActionResult Single() {
             return View();
         }
+
+        public IActionResult ReviewTwo() {
+            return View();
+        }
+
+        public IActionResult ReviewThree() {
+            return View();
+        }
     }
 }

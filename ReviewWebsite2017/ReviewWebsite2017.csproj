@@ -6,6 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Include="wwwroot\images\FallingIntoInfinity.jpg" />
     <Content Include="wwwroot\images\Graphicloads-Colorful-Long-Shadow-Music.ico" />
     <Content Include="wwwroot\images\icon.jpg" />
     <Content Include="wwwroot\images\icon.png" />
